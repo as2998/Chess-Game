@@ -1,12 +1,3 @@
-# The PvP chess bot for the Telegram
-
-![Travis (.org)](https://img.shields.io/travis/Piterden/chessbot/dev.svg?style=for-the-badge)
-![GitHub search hit counter](https://img.shields.io/github/search/Piterden/chessbot/chess.svg?style=for-the-badge)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Piterden/chessbot.svg?style=for-the-badge)
-
-## Overview
-
-A simple PvP chess game based on inline message and edit a reply markup of a chess board. The board built with callback buttons of inline-keyboard. Bot uses the [`node-chess`](https://github.com/brozeph/node-chess) package, which is driven by the algebraic notation of moves (PGN).
 
 #### Features:
 
@@ -66,20 +57,7 @@ Then run the dev mode:
 npm run dev
 ```
 
-## Built With
-
-- [Telegraf.js](https://github.com/telegraf/telegraf) - Telegram bot framework for Node.js.
-- [Node-Chess](https://github.com/brozeph/node-chess) - A simple node.js library for parsing and validating chess board position with an algebraic move parser.
-- [Knex](https://github.com/tgriesser/knex) - A query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Authors
-
-- **Denis Efremov** - *Code|Idea* - [Piterden](https://github.com/Piterden)
-- **kolay** - *Code|Consulting* - [kolay-v](<https://github.com/kolay-v>)
+)
 
 ## License
 
